@@ -1,0 +1,50 @@
+html {
+  max-width: 70ch;
+  padding: 2em 1em;
+  margin: auto;
+  line-height: 1.75;
+  font-size: 1.25em;
+  background-color: #F5F0E8;
+  color: #3E2723;
+}
+.blogtitle {font-size: 2em; font-weight: bold;}
+.date {font-style: italic; color: #6D4C41;}
+a {color: #5D4037;}
+hr {margin-bottom: 10px;}
+blockquote {
+  padding-left: 20px;
+  margin: 20px 0;
+  font-style: italic;
+  border-left: 5px solid #8D6E63;
+  color: #4E342E;
+}
+ img {
+   max-width: 100%;
+   display: block;
+   margin: 0 auto;
+   max-height: 75vh;
+   border-radius: 12px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+ }
+.like-button-container {
+  margin-top: 20px;
+  text-align: center;
+}
+.like-button {
+  background-color: #D7CCC8;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  color: #3E2723;
+}
+.like-button:hover {
+  background-color: #BCAAA4;
+}
+/* mobile */
+@media (max-width: 768px) {
+   html {font-size: 1em;}
+   .site-footer {text-align: center;}
+}
