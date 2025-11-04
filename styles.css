@@ -19,13 +19,14 @@ blockquote {
   color: #4E342E;
 }
  img {
-   max-width: 100%;
-   display: block;
-   margin: 0 auto;
-   max-height: 75vh;
-   border-radius: 12px;
-   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
- }
+           max-width: 100%;
+           display: block;
+           margin: 20px auto;
+           max-height: 75vh;
+           border-radius: 12px;
+           border: 3px solid #D7CCC8;
+           box-shadow: 0 4px 12px 0 rgba(62, 39, 35, 0.15);
+         }
 .like-button-container {
   margin-top: 20px;
   text-align: center;
