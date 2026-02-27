@@ -17,9 +17,17 @@ Static personal blog at sreekar.coffee. One CSS file (`styles.css`) shared acros
 ## Adding a new blog post
 
 1. Copy the closest existing post in `blog/` as a template
-2. Update title, date (`.date`), and content
+2. Update `<title>`, `<h1>`, `<p class="date">`, and content
 3. Add a link entry at the top of `blog/index.html`
 4. No CSS changes needed — all posts share `styles.css`
+5. Pushing the new file to `main` auto-updates `rss.xml` via GitHub Actions
+
+## RSS
+
+- Feed: `rss.xml` (do not edit manually — it is generated)
+- Generator: `generate_rss.py` — parses `<h1>`, `<p class="date">`, and first `<p>` inside `<section>` from each post
+- Workflow: `.github/workflows/update-rss.yml` triggers on `blog/**.html` pushes, commits updated feed with `[skip ci]`
+- To regenerate locally: `python3 generate_rss.py`
 
 ## Design tokens
 
