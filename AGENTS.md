@@ -8,11 +8,12 @@ Static personal blog at sreekar.coffee. One CSS file (`styles.css`) shared acros
 
 ## Rules
 
-- **Only edit `styles.css`** for design changes — never touch HTML structure
+- **CSS changes go in `styles.css` only** — never inline styles in HTML
+- **HTML edits only when explicitly requested** — e.g. adding a link, fixing content, not restructuring layout
 - **No new dependencies** — no npm, no frameworks, no external CSS libraries
 - **No new files** unless explicitly requested
 - Preserve the dot grid background on `html`, warm cream palette, and handwritten font pairing (Caveat + Kalam)
-- Keep the single-breakpoint mental model: tablet ≤768px, mobile ≤480px
+- Keep the two-breakpoint model: tablet ≤768px, mobile ≤480px
 
 ## Adding a new blog post
 
