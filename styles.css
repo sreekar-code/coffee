@@ -1,51 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Kalam:wght@300;400;700&display=swap');
+
 html {
-  max-width: 70ch;
-  padding: 2em 1em;
-  margin: auto;
-  line-height: 1.75;
-  font-size: 1.25em;
-  background-color: #F5F0E8;
-  color: #3E2723;
+  background-color: #F8F2E8;
+  font-size: 1.2em;
 }
-.blogtitle {font-size: 2em; font-weight: bold;}
-.date {font-style: italic; color: #6D4C41;}
-a {color: #5D4037;}
-hr {margin-bottom: 10px;}
-blockquote {
-  padding-left: 20px;
-  margin: 20px 0;
+
+body {
+  max-width: 68ch;
+  padding: 3em 1.5em 6em;
+  margin: 0 auto;
+  line-height: 1.85;
+  color: #2C1A0E;
+  font-family: 'Kalam', cursive;
+  background-color: #F8F2E8;
+}
+
+/* ===== SITE TITLE ===== */
+.blogtitle {
+  display: block;
+  font-family: 'Caveat', cursive;
+  font-size: 2.8em;
+  font-weight: 700;
+  color: #2C1A0E;
+  margin-bottom: 0.05em;
+  letter-spacing: 0.01em;
+}
+
+/* ===== NAV ===== */
+.blogtitle + p {
+  font-size: 0.72em;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #9A6040;
+  padding-bottom: 0.2em;
+  margin-bottom: 0.5em;
+}
+
+.blogtitle + p a {
+  color: #9A6040;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.blogtitle + p a:hover {
+  color: #C4783A;
+}
+
+/* ===== HEADINGS ===== */
+h1 {
+  font-family: 'Caveat', cursive;
+  font-size: 2em;
+  font-weight: 700;
+  color: #2C1A0E;
+  line-height: 1.2;
+  margin: 1.2em 0 0.15em;
+}
+
+h2 {
+  font-family: 'Caveat', cursive;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #3D2010;
+  margin-top: 1.5em;
+}
+
+/* ===== DATE ===== */
+.date {
   font-style: italic;
-  border-left: 5px solid #8D6E63;
-  color: #4E342E;
+  color: #9A6040;
+  font-size: 0.9em;
 }
- img {
-           max-width: 100%;
-           display: block;
-           margin: 20px auto;
-           max-height: 75vh;
-           border-radius: 12px;
-           border: 3px solid #D7CCC8;
-           box-shadow: 0 4px 12px 0 rgba(62, 39, 35, 0.15);
-         }
+
+/* ===== LINKS ===== */
+a {
+  color: #8B4513;
+  text-underline-offset: 3px;
+  text-decoration-color: rgba(139, 69, 19, 0.3);
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #C4783A;
+}
+
+/* ===== HR ===== */
+hr {
+  border: none;
+  border-top: 1px solid rgba(100, 55, 20, 0.2);
+  margin: 2.5em 0;
+}
+
+/* ===== BLOCKQUOTE ===== */
+blockquote {
+  border-left: 2px solid rgba(100, 55, 20, 0.3);
+  padding-left: 1.2em;
+  margin: 1.8em 0;
+  color: #5A3020;
+  font-style: italic;
+}
+
+/* ===== LISTS ===== */
+ul {
+  padding-left: 1.6em;
+  margin: 0.5em 0;
+}
+
+li { padding: 0.08em 0; }
+
+li::marker { color: #8B4513; }
+
+/* ===== IMAGES ===== */
+img {
+  max-width: 100%;
+  display: block;
+  margin: 2.5em auto;
+  max-height: 70vh;
+  border-radius: 4px;
+  box-shadow: 0 2px 24px rgba(44, 26, 14, 0.14);
+}
+
+/* ===== LIKE BUTTON ===== */
 .like-button-container {
-  margin-top: 20px;
+  margin-top: 2em;
   text-align: center;
 }
+
 .like-button {
-  background-color: #D7CCC8;
-  border: none;
-  border-radius: 20px;
-  padding: 10px 20px;
-  font-size: 16px;
+  background: transparent;
+  border: 1.5px solid rgba(100, 55, 20, 0.35);
+  border-radius: 4px;
+  padding: 8px 24px;
+  font-size: 0.95em;
+  font-family: 'Kalam', cursive;
   cursor: pointer;
-  transition: background-color 0.3s;
-  color: #3E2723;
+  color: #8B4513;
+  transition: all 0.2s;
 }
+
 .like-button:hover {
-  background-color: #BCAAA4;
+  background: rgba(100, 55, 20, 0.06);
+  border-color: #8B4513;
 }
-/* mobile */
+
+/* ===== FOOTER ===== */
+.site-footer {
+  text-align: center;
+  padding-top: 1.5em;
+  color: #9A7050;
+  font-size: 0.85em;
+  margin-top: 0;
+}
+
+/* ===== MOBILE ===== */
 @media (max-width: 768px) {
-   html {font-size: 1em;}
-   .site-footer {text-align: center;}
+  html { font-size: 1em; }
+  body { padding: 2em 1.2em 4em; }
+  .site-footer { text-align: center; }
 }
