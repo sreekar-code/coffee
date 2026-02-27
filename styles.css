@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Kalam:wght@300;400;700&display=swap');
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 html {
   background-color: #F8F2E8;
+  background-image: radial-gradient(circle, rgba(100, 55, 20, 0.15) 1.2px, transparent 1.2px);
+  background-size: 24px 24px;
   font-size: 1.2em;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -12,7 +19,9 @@ body {
   line-height: 1.85;
   color: #2C1A0E;
   font-family: 'Kalam', cursive;
-  background-color: #F8F2E8;
+  background-color: transparent;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 /* ===== SITE TITLE ===== */
@@ -87,7 +96,7 @@ a:hover {
 hr {
   border: none;
   border-top: 1px solid rgba(100, 55, 20, 0.2);
-  margin: 2.5em 0;
+  margin: 1.2em 0;
 }
 
 /* ===== BLOCKQUOTE ===== */
@@ -112,6 +121,7 @@ li::marker { color: #8B4513; }
 /* ===== IMAGES ===== */
 img {
   max-width: 100%;
+  height: auto;
   display: block;
   margin: 2.5em auto;
   max-height: 70vh;
@@ -129,12 +139,15 @@ img {
   background: transparent;
   border: 1.5px solid rgba(100, 55, 20, 0.35);
   border-radius: 4px;
-  padding: 8px 24px;
+  padding: 10px 28px;
+  min-height: 44px;
   font-size: 0.95em;
   font-family: 'Kalam', cursive;
   cursor: pointer;
   color: #8B4513;
   transition: all 0.2s;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .like-button:hover {
@@ -151,9 +164,23 @@ img {
   margin-top: 0;
 }
 
-/* ===== MOBILE ===== */
+/* ===== TABLET (≤768px) ===== */
 @media (max-width: 768px) {
+  html { font-size: 1.1em; }
+  body { padding: 2.5em 1.4em 5em; }
+  .blogtitle { font-size: 2.4em; }
+  h1 { font-size: 1.8em; }
+  h2 { font-size: 1.35em; }
+}
+
+/* ===== MOBILE (≤480px) ===== */
+@media (max-width: 480px) {
   html { font-size: 1em; }
-  body { padding: 2em 1.2em 4em; }
+  body { padding: 1.8em 1.1em 4em; line-height: 1.8; }
+  .blogtitle { font-size: 2em; }
+  h1 { font-size: 1.65em; }
+  h2 { font-size: 1.25em; }
+  hr { margin: 1em 0; }
+  img { max-height: 85vh; margin: 2em auto; }
   .site-footer { text-align: center; }
 }
