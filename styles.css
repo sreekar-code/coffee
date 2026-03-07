@@ -131,7 +131,7 @@ img {
   box-shadow:
     0 2px 8px rgba(44, 26, 14, 0.08),
     0 10px 36px rgba(44, 26, 14, 0.16);
-  filter: sepia(25%) saturate(85%) brightness(1.02);
+  filter: sepia(50%) saturate(80%) brightness(1.02);
   transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
 }
 
