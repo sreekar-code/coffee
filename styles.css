@@ -161,8 +161,8 @@ p:has(> img)::after {
       rgba(255,255,255,0.11) 5px, rgba(255,255,255,0.11) 6px
     ),
     linear-gradient(
-      rgba(238,210,120,0.70),
-      rgba(230,200,108,0.70)
+      rgba(196,120,58,0.60),
+      rgba(178,105,45,0.60)
     );
   border-radius: 1px;
   box-shadow: 1px 1px 5px rgba(80,48,8,0.22);
