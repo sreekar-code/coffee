@@ -17,7 +17,7 @@ Static personal blog at sreekar.coffee. One CSS file (`styles.css`) shared acros
 
 ## Adding a new blog post
 
-1. Copy the closest existing post in `blog/` as a template
+1. Copy `blog/cup-1.html` as a template
 2. Update `<title>`, `<h1>`, `<p class="date">`, and content
 3. Add a link entry at the top of `blog/index.html`
 4. No CSS changes needed — all posts share `styles.css`
