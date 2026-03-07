@@ -149,7 +149,6 @@ p:has(> img) {
 p:has(> img):hover { transform: rotate(0deg); }
 
 
-
 /* ===== FOOTER ===== */
 .site-footer {
   text-align: center;
