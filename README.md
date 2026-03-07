@@ -1,6 +1,6 @@
 # sreekar.coffee
 
-A personal coffee blog documenting AeroPress brewing experiments — recipes, tasting notes, café visits, and coffee rabbit holes.
+A personal coffee blog documenting AeroPress brewing experiments — recipes, tasting notes, café visits, and coffee rabbit holes. Open source.
 
 ## Stack
 
@@ -15,6 +15,7 @@ A personal coffee blog documenting AeroPress brewing experiments — recipes, ta
 ├── styles.css          # All styles (single shared sheet)
 ├── rss.xml             # RSS feed (auto-generated)
 ├── generate_rss.py     # Script to regenerate rss.xml
+├── .gitignore
 ├── images/
 ├── .github/
 │   └── workflows/

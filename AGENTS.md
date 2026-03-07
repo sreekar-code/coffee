@@ -4,7 +4,7 @@ Guidelines for AI agents working on this codebase.
 
 ## Project
 
-Static personal blog at sreekar.coffee. One CSS file (`styles.css`) shared across all pages. No build step, no framework, no JS.
+Static personal blog at sreekar.coffee. One CSS file (`styles.css`) shared across all pages. No build step, no framework, no JS. Open source.
 
 ## Rules
 
@@ -14,6 +14,20 @@ Static personal blog at sreekar.coffee. One CSS file (`styles.css`) shared acros
 - **No new files** unless explicitly requested
 - Preserve the dot grid background on `html`, warm cream palette, and handwritten font pairing (Caveat + Kalam)
 - Keep the two-breakpoint model: tablet ≤768px, mobile ≤480px
+- Do not remove the `p:has(> img)` photo frame styling — it handles image rotation and hover behaviour
+
+## Navigation pattern
+
+All pages share the same nav structure:
+```
+Home   Blog   Twitter
+```
+- Home and Blog are internal links; Twitter links externally to `https://x.com/sreekar_1729` (opens in new tab)
+- The current page is rendered as plain text (no link)
+
+## Footer
+
+Source (GitHub repo) and RSS links appear on the **home page only** (`index.html`). Blog listing and post pages have no footer.
 
 ## Adding a new blog post
 
