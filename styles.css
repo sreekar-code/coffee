@@ -127,24 +127,24 @@ img {
   margin: 2.5em auto;
   max-height: 85vh;
   border-radius: 2px;
-  border: 6px solid #FEFCF8;
-  border-bottom-width: 16px;
+  border: 14px solid #FEFCF8;
+  border-bottom-width: 20px;
   box-shadow:
-    1px 2px 8px rgba(44, 26, 14, 0.1),
-    0 8px 28px rgba(44, 26, 14, 0.14);
-  filter: sepia(20%) saturate(90%) brightness(1.02);
-  transform: rotate(-0.5deg);
+    3px 4px 16px rgba(44, 26, 14, 0.18),
+    0 1px 4px rgba(44, 26, 14, 0.1);
+  filter: sepia(10%) saturate(95%) brightness(1.01);
+  transform: rotate(1.5deg);
   transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
 }
 
 /* hover only on devices that support it (not touch) */
 @media (hover: hover) {
   img:hover {
-    transform: rotate(0deg) scale(1.015);
+    transform: rotate(0deg) scale(1.02);
     box-shadow:
-      1px 4px 12px rgba(44, 26, 14, 0.12),
-      0 14px 40px rgba(44, 26, 14, 0.18);
-    filter: sepia(12%) saturate(95%) brightness(1.04);
+      4px 6px 20px rgba(44, 26, 14, 0.22),
+      0 2px 6px rgba(44, 26, 14, 0.12);
+    filter: sepia(5%) saturate(98%) brightness(1.03);
   }
 }
 
