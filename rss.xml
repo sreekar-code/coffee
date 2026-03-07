@@ -5,78 +5,8 @@
     <link>https://sreekar.coffee</link>
     <description>Personal coffee blog — AeroPress experiments, tasting notes, and coffee rabbit holes.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Feb 2026 02:12:06 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Mar 2026 06:28:42 +0000</lastBuildDate>
     <atom:link href="https://sreekar.coffee/rss.xml" rel="self" type="application/rss+xml"/>
-    <item>
-      <title>Cold Ruined Coffee</title>
-      <link>https://sreekar.coffee/blog/cup-12.html</link>
-      <guid isPermaLink="true">https://sreekar.coffee/blog/cup-12.html</guid>
-      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <description>Cup #12 was supposed to be an Inverted AeroPress brew. But I just brewed it the usual way.</description>
-    </item>
-    <item>
-      <title>Dark Meets Light</title>
-      <link>https://sreekar.coffee/blog/cup-11.html</link>
-      <guid isPermaLink="true">https://sreekar.coffee/blog/cup-11.html</guid>
-      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
-      <description>I tried dark-roast beans. I tried light-roast beans. But what if I mix both?</description>
-    </item>
-    <item>
-      <title>Caught the Sour</title>
-      <link>https://sreekar.coffee/blog/cup-10.html</link>
-      <guid isPermaLink="true">https://sreekar.coffee/blog/cup-10.html</guid>
-      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
-      <description>And finally, I tried those light-roast beans from Goa! They are soo good! I could brew my first sour cup with them.</description>
-    </item>
-    <item>
-      <title>Astringent Again</title>
-      <link>https://sreekar.coffee/blog/cup-9.html</link>
-      <guid isPermaLink="true">https://sreekar.coffee/blog/cup-9.html</guid>
-      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
-      <description>I've been dying to try those light-roasted beans from Goa, but today was hectic and I didn't want to rush it. So I stuck with my usual dark roast.</description>
-    </item>
-    <item>
-      <title>Coffee in Goa</title>
-      <link>https://sreekar.coffee/blog/cup-7-and-8.html</link>
-      <guid isPermaLink="true">https://sreekar.coffee/blog/cup-7-and-8.html</guid>
-      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
-      <description>So I work remotely, but I finally got to meet my team in Goa. And I brought my Aeropress along to brew cup #7 for them.</description>
-    </item>
-    <item>
-      <title>My Coffee Sweet Spot</title>
-      <link>https://sreekar.coffee/blog/cup-6.html</link>
-      <guid isPermaLink="true">https://sreekar.coffee/blog/cup-6.html</guid>
-      <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
-      <description>Cup #6 was a winner! It had that same magic as cup #3—perfectly balanced, not too sour or bitter. Just right.</description>
-    </item>
-    <item>
-      <title>Chasing Sourness</title>
-      <link>https://sreekar.coffee/blog/cup-4-and-5.html</link>
-      <guid isPermaLink="true">https://sreekar.coffee/blog/cup-4-and-5.html</guid>
-      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <description>It's Saturday, a holiday. And that means more coffeeeee!</description>
-    </item>
-    <item>
-      <title>Perfect Cup, Cold Brew, and Coffee Book</title>
-      <link>https://sreekar.coffee/blog/cup-3.html</link>
-      <guid isPermaLink="true">https://sreekar.coffee/blog/cup-3.html</guid>
-      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
-      <description>Cup #3 turned out to be a really good one. I'm so happy about it. It just made my day!</description>
-    </item>
-    <item>
-      <title>Astringent Coffee</title>
-      <link>https://sreekar.coffee/blog/notes-1.html</link>
-      <guid isPermaLink="true">https://sreekar.coffee/blog/notes-1.html</guid>
-      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-      <description>Sounds like a coffee brand, but it isn't!</description>
-    </item>
-    <item>
-      <title>Bad Brew</title>
-      <link>https://sreekar.coffee/blog/cup-2.html</link>
-      <guid isPermaLink="true">https://sreekar.coffee/blog/cup-2.html</guid>
-      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
-      <description>Everything that could go wrong, went wrong today! 🥲</description>
-    </item>
     <item>
       <title>First Brew</title>
       <link>https://sreekar.coffee/blog/cup-1.html</link>
