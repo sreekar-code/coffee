@@ -148,36 +148,6 @@ p:has(> img) {
 }
 p:has(> img):hover { transform: rotate(0deg); }
 
-p:has(> img)::before,
-p:has(> img)::after {
-  content: '';
-  position: absolute;
-  width: 85px;
-  height: 22px;
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent 0, transparent 5px,
-      rgba(255,255,255,0.11) 5px, rgba(255,255,255,0.11) 6px
-    ),
-    linear-gradient(
-      rgba(196,120,58,0.60),
-      rgba(178,105,45,0.60)
-    );
-  border-radius: 1px;
-  box-shadow: 1px 1px 5px rgba(80,48,8,0.22);
-  z-index: 2;
-}
-/* top-left corner */
-p:has(> img)::before {
-  top: 0; left: 0;
-  transform: translate(-50%, -50%) rotate(-42deg);
-}
-/* bottom-right corner */
-p:has(> img)::after {
-  bottom: 0; right: 0;
-  transform: translate(50%, 50%) rotate(-42deg);
-}
 
 /* ===== LIKE BUTTON ===== */
 .like-button-container {
