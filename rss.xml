@@ -5,14 +5,8 @@
     <link>https://sreekar.coffee</link>
     <description>Personal coffee blog — AeroPress experiments, tasting notes, and coffee rabbit holes.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Mar 2026 07:13:25 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Mar 2026 17:21:57 +0000</lastBuildDate>
     <atom:link href="https://sreekar.coffee/rss.xml" rel="self" type="application/rss+xml"/>
-    <item>
-      <title>First Brew</title>
-      <link>https://sreekar.coffee/blog/cup-1.html</link>
-      <guid isPermaLink="true">https://sreekar.coffee/blog/cup-1.html</guid>
-      <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
-      <description>After sipping instant coffee for years, I finally bade bye to it and bought an AeroPress!</description>
-    </item>
+
   </channel>
 </rss>
